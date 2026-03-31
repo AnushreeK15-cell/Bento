@@ -22,71 +22,71 @@ class _DashboardPageState extends State<DashboardPage> {
   final Map<String, int> _cart = {};
 
   final List<Map<String, dynamic>> _featuredItems = [
-  {
-    'name': 'Masala Dosa',
-    'price': 45,
-    'tag': 'Breakfast',
-    'image': 'https://images.unsplash.com/photo-1589302168068-964664d93dc0',
-    'rating': 4.8,
-    'color': const Color(0xFFFFF3E0),
-  },
-  {
-    'name': 'Veg Thali',
-    'price': 80,
-    'tag': 'Lunch',
-    'image': 'https://images.unsplash.com/photo-1604909052743-94e838986d24',
-    'rating': 4.6,
-    'color': const Color(0xFFE8F5E9),
-  },
-  {
-    'name': 'Samosa (2pc)',
-    'price': 20,
-    'tag': 'Snacks',
-    'image': 'https://images.unsplash.com/photo-1617196038435-4f9c0f6b9c91',
-    'rating': 4.7,
-    'color': const Color(0xFFFCE4EC),
-  },
-  {
-    'name': 'Cold Coffee',
-    'price': 35,
-    'tag': 'Beverage',
-    'image': 'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
-    'rating': 4.5,
-    'color': const Color(0xFFE3F2FD),
-  },
-  {
-    'name': 'Poha',
-    'price': 25,
-    'tag': 'Breakfast',
-    'image': 'https://images.unsplash.com/photo-1627308595229-7830a5c91f9f',
-    'rating': 4.4,
-    'color': const Color(0xFFF3E5F5),
-  },
-  {
-    'name': 'Paneer Wrap',
-    'price': 60,
-    'tag': 'Lunch',
-    'image': 'https://images.unsplash.com/photo-1601050690597-df0568f70950',
-    'rating': 4.9,
-    'color': const Color(0xFFE8F5E9),
-  },
-  {
-    'name': 'Lemon Soda',
-    'price': 20,
-    'tag': 'Beverage',
-    'image': 'https://images.unsplash.com/photo-1551024601-bec78aea704b',
-    'rating': 4.3,
-    'color': const Color(0xFFFFF9C4),
-  },
-  {
-    'name': 'Veg Biryani',
-    'price': 90,
-    'tag': 'Lunch',
-    'image': 'https://images.unsplash.com/photo-1563379091339-03246963d96c',
-    'rating': 4.8,
-    'color': const Color(0xFFFFF3E0),
-  },
-];
+    {
+      'name': 'Masala Dosa',
+      'price': 45,
+      'tag': 'Breakfast',
+      'emoji': '🫓',
+      'rating': 4.8,
+      'color': const Color(0xFFFFF3E0),
+    },
+    {
+      'name': 'Veg Thali',
+      'price': 80,
+      'tag': 'Lunch',
+      'emoji': '🍱',
+      'rating': 4.6,
+      'color': const Color(0xFFE8F5E9),
+    },
+    {
+      'name': 'Samosa (2pc)',
+      'price': 20,
+      'tag': 'Snacks',
+      'emoji': '🥟',
+      'rating': 4.7,
+      'color': const Color(0xFFFCE4EC),
+    },
+    {
+      'name': 'Cold Coffee',
+      'price': 35,
+      'tag': 'Beverage',
+      'emoji': '☕',
+      'rating': 4.5,
+      'color': const Color(0xFFE3F2FD),
+    },
+    {
+      'name': 'Poha',
+      'price': 25,
+      'tag': 'Breakfast',
+      'emoji': '🍚',
+      'rating': 4.4,
+      'color': const Color(0xFFF3E5F5),
+    },
+    {
+      'name': 'Paneer Wrap',
+      'price': 60,
+      'tag': 'Lunch',
+      'emoji': '🌯',
+      'rating': 4.9,
+      'color': const Color(0xFFE8F5E9),
+    },
+    {
+      'name': 'Lemon Soda',
+      'price': 20,
+      'tag': 'Beverage',
+      'emoji': '🥤',
+      'rating': 4.3,
+      'color': const Color(0xFFFFF9C4),
+    },
+    {
+      'name': 'Veg Biryani',
+      'price': 90,
+      'tag': 'Lunch',
+      'emoji': '🍛',
+      'rating': 4.8,
+      'color': const Color(0xFFFFF3E0),
+    },
+  ];
 
   final List<Map<String, dynamic>> _navItems = [
     {'icon': Icons.grid_view_rounded, 'label': 'Dashboard'},
@@ -747,3 +747,4 @@ class _DashboardPageState extends State<DashboardPage> {
     );
   }
 }
+
